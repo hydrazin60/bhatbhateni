@@ -6,12 +6,10 @@ export default function Shoppinglayaout() {
   return (
     <div>
       <div>
-        <div>
-          <ShoppingHeader />
-        </div>
-        <div>
+        <ShoppingHeader />
+        <main>
           <Outlet />
-        </div>
+        </main>
       </div>
     </div>
   );
